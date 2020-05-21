@@ -32,3 +32,9 @@ a floor that the egg breaks on and a floor that it doesn't. The floor where it d
 is the highest possible floor.
 
 this should take log(n) drops on average where n is the height of the building.
+
+For example in a seven story building where the egg breaks on anything higher than 6
+(therefore the answer is 5) first drop from the fourth floor, the egg won't break, so
+move up to the 6th floor and drop another egg, this time it will break so you move back down
+to floor five, and drop the egg. This time it doesn't break, but since we've already checked
+six we know this is the highest possible floor 
